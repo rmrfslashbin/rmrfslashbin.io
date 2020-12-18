@@ -1,7 +1,13 @@
 {
   "name": "rmrfslashbin.io",
+  "description": "Source code for my homepage.",
+  "author": "Robert Sigler <sigler@improvisedscience.org> (https://rmrfslashbin.io)",
   "version": "0.1.0",
   "private": true,
+  "bugs": "https://github.com/rmrfslashbin/rmrfslashbin.io/issues",
+  "homepage": "https://github.com/rmrfslashbin/rmrfslashbin.io",
+  "repository": "github:rmrfslashbin/rmrfslashbin.io",
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

@@ -3,13 +3,15 @@ import App from './App.vue'
 import router from '@/lib/router'
 
 // Bootstrap
-import { BootstrapVue } from 'bootstrap-vue'
+import { BadgePlugin, CardPlugin, LayoutPlugin } from 'bootstrap-vue'
 import '@/styles/custom.scss'
 
 Vue.config.productionTip = false
 
 // Install BootstrapVue
-Vue.use(BootstrapVue)
+Vue.use(BadgePlugin)
+Vue.use(CardPlugin)
+Vue.use(LayoutPlugin)
 
 new Vue({
   router,

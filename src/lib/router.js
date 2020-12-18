@@ -9,6 +9,12 @@ const routes = [
     name: 'root',
     // Lazy-load the page
     component: () => import(/* webpackChunkName: "root" */ '../views/Root.vue')
+  },
+  {
+    path: '/learn',
+    name: 'learn',
+    // Lazy-load the page
+    component: () => import(/* webpackChunkName: "root" */ '../views/Learn.vue')
   }
 ]
 

@@ -2,7 +2,7 @@
   <b-container>
     <b-row>
       <b-col>
-        <p>This is my thing.</p>
+        <p>This is my thing. <router-link :to="{ name: 'learn'}">Learn More</router-link>.</p>
       </b-col>
     </b-row>
     <b-row>

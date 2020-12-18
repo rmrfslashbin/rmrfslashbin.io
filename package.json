@@ -1,17 +1,14 @@
 {
   "name": "rmrfslashbin.io",
-  "description": "Source code for my homepage.",
-  "author": "Robert Sigler <sigler@improvisedscience.org> (https://rmrfslashbin.io)",
   "version": "0.1.0",
   "private": true,
-  "bugs": "https://github.com/rmrfslashbin/rmrfslashbin.io/issues",
-  "homepage": "https://github.com/rmrfslashbin/rmrfslashbin.io",
-  "repository": "github:rmrfslashbin/rmrfslashbin.io",
-  "license": "MIT",
+  "description": "Source code for my homepage.",
+  "author": "Robert Sigler <sigler@improvisedscience.org> (https://rmrfslashbin.io)",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "vue-cli-service s3-deploy"
   },
   "dependencies": {
     "bootstrap": "^4.5.3",
@@ -50,5 +47,9 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "bugs": "https://github.com/rmrfslashbin/rmrfslashbin.io/issues",
+  "homepage": "https://github.com/rmrfslashbin/rmrfslashbin.io",
+  "license": "MIT",
+  "repository": "github:rmrfslashbin/rmrfslashbin.io"
 }

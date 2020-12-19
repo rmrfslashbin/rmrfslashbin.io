@@ -15,6 +15,10 @@ const routes = [
     name: 'learn',
     // Lazy-load the page
     component: () => import(/* webpackChunkName: "root" */ '../views/Learn.vue')
+  },
+  {
+    path: '*',
+    redirect: '/'
   }
 ]
 

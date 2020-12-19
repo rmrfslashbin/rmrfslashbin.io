@@ -12,7 +12,7 @@ To build this project, I used the following frameworks:
 - [Sass](https://sass-lang.com/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Bootstrap-Vue](https://bootstrap-vue.org/)
-- [Bootswatch]https://bootswatch.com/darkly/
+- [Bootswatch](https://bootswatch.com/darkly/)
 
 ## Project setup
 ```

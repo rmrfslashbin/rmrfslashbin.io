@@ -20,3 +20,8 @@ I've spent most of my [career](https://rsigler.com/) in Systems Engineering (Win
 - 🇫🇷 I speak a bit of French.
 - 🧶 I know how to crochet.
 - 🧑‍🍳 [Cooking](https://bit.ly/3FkjhnH) is my favorite weekend activity.
+- 🎶 I curate montly playlists of music I'm listening to on [Apple Music](https://music.apple.com/profile/rmrfslashbin).
+
+## Contact Me:
+I'm happy to connect and engage with entities that are not bots or  spammers. I'm also happy to answer questions about my professional life, my personal life, or anything else you'd like to know. Pick the [social link](https://rmrfslashbin.io) congruent with your social presense and say "hi".
+

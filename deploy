@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+rm -rf public && \
+  hugo -d public/rmrfslashbin.io -b https://rmrfslashbin.io && \
+  hugo -d public/sigler.io -b https://sigler.io && \
+  hugo deploy --target rmrfslashbinio && \
+  hugo deploy --target siglerio
+
+
+if [ $? -ne 0 ]; then
+    echo "Something went wrong... stopping"
+    exit
+fi
+
+exit
+
+hugo -b "https://rmrfslashbin.github.io" -d public/rmrfslashbin.github.io
+cd public/rmrfslashbin.github.io
+git init
+git add .
+git commit -m "deploying"
+git push -f git@github.com:rmrfslashbin/rmrfslashbin.github.io.git main
+
+cd -
+

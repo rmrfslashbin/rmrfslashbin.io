@@ -1,0 +1,67 @@
+{
+    "baseURL": "https://rmrfslashbin.io/",
+    "languageCode": "en-us",
+    "title": "rmrfslashbin",
+    "theme": "papermod",
+    "publishDir": "public/rmrfslashbin.io",
+    "deployment": {
+        "targets": [
+            {
+                "name": "rmrfslashbinio",
+                "url": "s3://is-static-web-hosting?prefix=/rmrfslashbin.io/&region=us-east-1",
+                "cloudFrontDistributionID": "E36EOOO7TJC3G5"
+            },
+            {
+                "name": "siglerio",
+                "url": "s3://is-static-web-hosting?prefix=/sigler.io/&region=us-east-1",
+                "cloudFrontDistributionID": "E291I8P09I82H4"
+            }
+        ]
+    },
+    "params": {
+        "profileMode": {
+            "enabled": true,
+            "subtitle": "Robert Sigler (he/him/his)",
+            "imageUrl": "profileImage.jpg",
+            "imageTitle": "it's a photo of me",
+            "imageWidth": 120,
+            "imageHeight": 120,
+            "buttons": [
+                {
+                    "name": "About",
+                    "url": "/about/me/"
+                }
+            ]
+        },
+        "socialIcons": [
+            {
+                "name": "twitter",
+                "url": "https://www.twitter.com/rmrfslashbin"
+            },
+            {
+                "name": "github",
+                "url": "https://www.github.com/rmrfslashbin"
+            },
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/robertsigler"
+            },
+            {
+                "name": "reddit",
+                "url": "https://www.reddit.com/user/rmrfslashbin"
+            },
+            {
+                "name": "dev",
+                "url": "https://www.dev.to/rmrfslashbin"
+            },
+            {
+                "name": "discord",
+                "url": "https://discordapp.com/users/803788725204418590/"
+            },
+            {
+                "name": "email",
+                "url": "mailto:sigler@improvisedscience.org"
+            }
+        ]
+    }
+}

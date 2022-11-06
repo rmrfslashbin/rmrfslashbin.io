@@ -35,10 +35,6 @@
         },
         "socialIcons": [
             {
-                "name": "twitter",
-                "url": "https://www.twitter.com/rmrfslashbin"
-            },
-            {
                 "name": "github",
                 "url": "https://www.github.com/rmrfslashbin"
             },
@@ -60,7 +56,7 @@
             },
             {
                 "name": "email",
-                "url": "mailto:sigler@improvisedscience.org"
+                "url": "mailto:hello@sigler.io"
             }
         ]
     }

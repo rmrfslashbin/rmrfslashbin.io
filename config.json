@@ -35,16 +35,12 @@
         },
         "socialIcons": [
             {
-                "name": "github",
-                "url": "https://www.github.com/rmrfslashbin"
-            },
-            {
-                "name": "linkedin",
-                "url": "https://www.linkedin.com/in/robertsigler"
-            },
-            {
                 "name": "mastodon",
                 "url": "https://federate.social/@rmrfslashbin"
+            },
+            {
+                "name": "github",
+                "url": "https://www.github.com/rmrfslashbin"
             },
             {
                 "name": "mastodon",

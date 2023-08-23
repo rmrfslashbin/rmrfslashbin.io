@@ -36,19 +36,11 @@
         "socialIcons": [
             {
                 "name": "mastodon",
-                "url": "https://federate.social/@rmrfslashbin"
+                "url": "https://theatl.social/@r"
             },
             {
                 "name": "github",
                 "url": "https://www.github.com/rmrfslashbin"
-            },
-            {
-                "name": "mastodon",
-                "url": "https://theatl.social/@r"
-            },
-            {
-                "name": "reddit",
-                "url": "https://www.reddit.com/user/rmrfslashbin"
             },
             {
                 "name": "discord",

@@ -24,5 +24,3 @@ I've spent most of my [career](https://rsigler.com/) in Systems Engineering (Win
 
 ## Contact Me:
 I'm happy to connect and engage with entities that are not bots or  spammers. I'm also happy to answer questions about my professional life, my personal life, or anything else you'd like to know. Pick the [social link](https://rmrfslashbin.io) congruent with your social presense and say "hi".
-
-<a rel="me" href="https://federate.social/@rmrfslashbin">Mastodon</a>

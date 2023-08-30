@@ -101,5 +101,5 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: rmrfslashbin/rmrfslashbin.github.io
-          publish_dir: ./public
+          publish_dir: ./public/rmrfslashbin.io
           publish_branch: main

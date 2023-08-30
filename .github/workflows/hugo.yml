@@ -99,7 +99,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.TOKEN }}
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: rmrfslashbin/rmrfslashbin.github.io
           publish_dir: ./public
           publish_branch: main

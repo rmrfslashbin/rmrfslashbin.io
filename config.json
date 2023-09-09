@@ -48,6 +48,10 @@
             {
                 "name": "email",
                 "url": "mailto:hello@sigler.io"
+            },
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/robertsigler/"
             }
         ]
     }

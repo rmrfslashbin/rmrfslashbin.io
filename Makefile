@@ -1,5 +1,8 @@
-.DEFAULT_GOAL := deploy
+.DEFAULT_GOAL := run
 .PHONY: deploy
+
+run:
+	hugo server -D
 
 deploy:
 	./deploy

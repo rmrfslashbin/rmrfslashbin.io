@@ -3,3 +3,6 @@
 
 deploy:
 	./deploy
+
+update:
+	git submodule update --remote && git commit -am "Updating submodules" && git push

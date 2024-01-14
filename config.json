@@ -2,21 +2,6 @@
     "languageCode": "en-us",
     "title": "rmrfslashbin",
     "theme": "papermod",
-    "publishDir": "public/rmrfslashbin.io",
-    "deployment": {
-        "targets": [
-            {
-                "name": "rmrfslashbinio",
-                "url": "s3://is-static-web-hosting?prefix=/rmrfslashbin.io/&region=us-east-1",
-                "cloudFrontDistributionID": "E36EOOO7TJC3G5"
-            },
-            {
-                "name": "siglerio",
-                "url": "s3://is-static-web-hosting?prefix=/sigler.io/&region=us-east-1",
-                "cloudFrontDistributionID": "E291I8P09I82H4"
-            }
-        ]
-    },
     "params": {
         "profileMode": {
             "enabled": true,

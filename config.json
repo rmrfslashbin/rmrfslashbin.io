@@ -19,6 +19,10 @@
         },
         "socialIcons": [
             {
+                "name": "bluesky",
+                "url": "https://bsky.app/profile/rmrfslashbin.bsky.social"
+            },
+            {
                 "name": "mastodon",
                 "url": "https://theatl.social/@r"
             },
